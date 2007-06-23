@@ -8,11 +8,17 @@
 
 		All rights reserved.
 		
-		Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+		Redistribution and use in source and binary forms, with or without modification, are 
+		permitted provided that the following conditions are met:
 		
-			* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-			* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-			* Neither the name of Simplicity Group, LLC nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+			* Redistributions of source code must retain the above copyright notice, this list 
+			  of conditions and the following disclaimer.
+			* Redistributions in binary form must reproduce the above copyright notice, this 
+			  list of conditions and the following disclaimer in the documentation and/or other 
+			  materials provided with the distribution.
+			* Neither the name of Simplicity Group, LLC nor the names of its contributors may 
+			  be used to endorse or promote products derived from this software without 
+			  specific prior written permission.
 		
 		THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
 		"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
@@ -49,7 +55,8 @@
 		<cfreturn This/>
 	</cffunction>
 	
-	<cffunction name="addGrant" output="true" returntype="void"> <!--- TODO: Test --->
+	<!--- TODO: Test --->
+	<cffunction name="addGrant" output="true" returntype="void">
 		<cfargument name="uri" type="string" required="true"/>
 		<cfargument name="queueName" type="string" required="true"/>
 		<cfargument name="permission" type="string" required="true"/>
@@ -110,7 +117,8 @@
 		</cfif>
 	</cffunction>
 	
-	<cffunction name="changeMessageVisibility" output="true" returntype="void"> <!--- TODO: Test --->
+	<!--- TODO: Test --->
+	<cffunction name="changeMessageVisibility" output="true" returntype="void">
 		<cfargument name="uri" type="string" required="true"/>
 		<cfargument name="messageId" type="string" required="true"/>
 		<cfargument name="visibilityTimeout" type="numeric" required="true"/>
@@ -521,7 +529,8 @@
 		</cfif>
 	</cffunction>
 	
-	<cffunction name="peekMessage" output="false" returntype="struct"> <!--- TODO: Test --->
+	<!--- TODO: Test --->
+	<cffunction name="peekMessage" output="false" returntype="struct">
 		<cfargument name="uri" type="string" required="true"/>
 		<cfargument name="messageId" type="string" required="true"/>
 		
@@ -638,7 +647,8 @@
 		</cfif>
 	</cffunction>
 	
-	<cffunction name="removeGrant" output="false" returntype="void"> <!--- TODO: Test --->
+	<!--- TODO: Test --->
+	<cffunction name="removeGrant" output="false" returntype="void">
 		<cfargument name="uri" type="string" required="true"/>
 		<cfargument name="queueName" type="string" required="true"/>
 		<cfargument name="granteeEmailAddress" type="string" required="false"/>
@@ -743,7 +753,8 @@
 		</cfif>
 	</cffunction>
 	
-	<cffunction name="setQueueAttributes" output="true" returntype="void"> <!--- TODO: Test --->
+	<!--- TODO: Test --->
+	<cffunction name="setQueueAttributes" output="true" returntype="void">
 		<cfargument name="uri" type="string" required="true"/>
 		<cfargument name="attribute" type="string" required="true"/>
 		<cfargument name="value" type="string" required="true"/>
