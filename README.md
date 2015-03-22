@@ -21,7 +21,7 @@ Compatible with ColdFusion MX 7 and above.
 
 ## Origin
 
-Exported from code.google.com/p/sqscfc
+Exported from [code.google.com/p/sqscfc](https://code.google.com/p/sqscfc/)
 
 ## License
 
